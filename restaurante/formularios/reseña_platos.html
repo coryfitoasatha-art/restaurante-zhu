@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristina Corina Tnasie">
+    <meta name="description" content="Formulario para realizar una reseña de un plato del restaurante">
+    <meta name="keywords" content="restaurante, reseña, plato, opinión, formulario">
+    <title>Reseña de un plato</title>
+</head>
+    <nav>
+        <a href="../../index.html">Volver a la página principal</a>
+    </nav>
+<body>
+
+    <h1>Reseña de un plato</h1>
+
+    <form action="#" method="post">
+
+        <!-- Desplegable con los 4 platos -->
+        <label>Seleccione el plato:</label>
+        <br>
+        <select name="plato" style="width: 300px;">
+            <option value="plato1">Plato 1: Arroz Frito</option>
+            <option value="plato2">Plato 2: Pollo Agridulce</option>
+            <option value="plato3">Plato 3: Tallarines con Ternera</option>
+
+        </select>
+        <br><br>
+
+        <!-- Nombre del que realiza la reseña -->
+        <label>Nombre de quien realiza la reseña:</label>
+        <br>
+        <input type="text" name="nombre_autor" placeholder="Su nombre" style="width: 300px;">
+        <br><br>
+
+        <!-- Reseña del plato -->
+        <label>Reseña del plato:</label>
+        <br>
+        <textarea name="resena" placeholder="Escriba su opinión sobre el plato..." rows="6" cols="50"></textarea>
+        <br><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar Reseña">
+
+    </form>
+
+</body>
+
+</html>
